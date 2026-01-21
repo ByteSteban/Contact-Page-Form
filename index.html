@@ -2,14 +2,17 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact</title>
         <link rel="stylesheet" href="./assets/css/styles.css">
+        <meta name="description" content="Contact Page Challenge by Esteban Padilla">
+        <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
     </head>
     <body>
         <header>
-            <img src="./assets/img/Logo@2x.png" alt="Logo">
+            <img src="./assets/img/Logo@2x.png" alt="Logo Becv">
         </header>
+        <main>
         <section class="contact-description">
             <h1>Interested in our business pricing?</h1>
             <p>Fill out the form to view details and we’ll contact you as soon as possible.</p>
@@ -18,11 +21,11 @@
         <form action="#" method="post" class="contact-form">
             <div class="form-name-container">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" required placeholder="Your Name">
+            <input type="text" id="name" name="name" required placeholder="Your Name" autocomplete="additional-name">
             </div>
             <div class="form-company-email-container">
             <label for="company-email">Company Email</label>
-            <input type="email" id="company-email" name="email" required placeholder="Company Email">
+            <input type="email" id="company-email" name="email" required placeholder="Company Email" autocomplete="email">
             </div>
             <div class="form-company-size-container">
             <label for="company-size">Company Size</label>
@@ -49,5 +52,6 @@
             <button type="submit" class="form-send-button">Contact Sales</button>
         </form>
         </section>
+        </main>
     </body>
 </html>

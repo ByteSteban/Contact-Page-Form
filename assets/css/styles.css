@@ -3,20 +3,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'be vietnam pro';
+    src: url(/assets/fonts/BeVietnamPro-Regular.ttf);
+    font-display: swap;
+}
 body{
     background: url(/assets/img/background.svg) no-repeat;
     background-size: cover;
+    font-family: 'be vietnam pro', sans-serif;
+    font-size: 16px;
 }
 header{
     display: flex;
     justify-content: left;
-    padding: 20px 0 0 60px;
 }
     header img{
         width: 100px;
         height: 30px;
+        margin: 20px;
     }
-
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
 /*Contact Description*/
 
 .contact-description{
@@ -24,25 +38,39 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 30px;
+    margin-bottom: 50px;
 }
 
 /* Contact Form */
 
 .contact-form-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    max-width: 900px;
-    margin: 50px auto;
+    align-items: center;
+    width: 90%;
 }
 
 .contact-form{
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    grid-template-rows: repeat(4 , 1fr);
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    padding: 25px;
-    gap: 15px;
+    padding: 15px;
+    gap: 10px;
     border: 1px solid black;
+}
+@media (min-width:1024px) {
+    .contact-form{
+        display: grid;
+        padding: 25px;
+        gap: 25px;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: repeat(4 , 1fr);
+    }
+    .contact-form-container{
+        width: 70%;
+    }
 }
 .form-name-container{
     display: flex;
