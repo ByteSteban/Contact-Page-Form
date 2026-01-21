@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(/assets/img/background.svg) no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: left;
+    padding: 20px 0 0 60px;
+}
+    header img{
+        width: 100px;
+        height: 30px;
+    }
+
+/*Contact Description*/
+
+.contact-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contact Form */
+
+.contact-form-container{
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.contact-form{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(4 , 1fr);
+    width: 100%;
+    padding: 25px;
+    gap: 15px;
+    border: 1px solid black;
+}
+.form-name-container{
+    display: flex;
+    flex-direction: column;
+}
+    .form-name-container label{
+        margin-bottom: 5px;
+    }
+.form-company-email-container{
+    display: flex;
+    flex-direction: column;
+}
+    .form-company-email-container label{
+        margin-bottom: 5px;
+    }
+.form-company-size-container{
+    display: flex;
+    flex-direction: column;
+}
+    .form-company-size-container label{
+        margin-bottom: 5px;
+    }
+.form-subject-container{
+    display: flex;
+    flex-direction: column;
+}
+    .form-subject-container label{
+        margin-bottom: 5px;
+    }
+.form-message-container{
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2;
+}
+    .form-message-container label{
+        margin-bottom: 5px;
+    }
+    .form-message-area{
+        width: 100%;
+        height: 100px;
+    }
+.form-send-button{
+    grid-column: span 2;
+}
