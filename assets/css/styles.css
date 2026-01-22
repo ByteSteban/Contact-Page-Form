@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'be vietnam pro';
-    src: url(/assets/fonts/BeVietnamPro-Regular.ttf);
+    src: url(../fonts/BeVietnamPro-Regular.ttf);
     font-display: swap;
 }
 .author-info {
@@ -20,7 +20,7 @@
         text-decoration: underline;
       }
 body{
-    background: url(/assets/img/background.svg) no-repeat;
+    background: url(../img/background.svg) no-repeat;
     background-size: cover;
     font-family: 'be vietnam pro', sans-serif;
     font-size: 16px;
@@ -124,7 +124,7 @@ input:focus, select:focus, textarea:focus{
     font-weight: bold;
     height: 60px;
     appearance: none;
-    background-image: url(/assets/img/Expand_down.svg);
+    background-image: url(../img/Expand_down.svg);
     background-repeat: no-repeat;
     background-position: right center;
 }
