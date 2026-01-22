@@ -3,7 +3,7 @@
 <h1 align="center">Contact Page</h1>
 
 <div align="center">
-   Solution for a challenge <a href="https://devchallenges.io/challenge/business-blog-card" target="_blank">Contact Page</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
+   Solution for a challenge <a href= "https://bytesteban.github.io/Contact-Page-Form/" target="_blank">Contact Page</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
 </div>
 
 <div align="center">
@@ -38,7 +38,7 @@
 
 ### What I learned
 
-In this project, I focused on mastering CSS Grid to create a non-linear, staggered layout for the testimonial cards. I also deepened my understanding of the Flexbox model to manage internal component alignment and ensure a consistent UI across different screen sizes.
+In this challenge I reinforced my skills in using grids to position the elements of a form.
 
 
 ### Built with
