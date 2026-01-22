@@ -15,19 +15,19 @@
         <main>
         <section class="contact-description">
             <h1>Interested in our business pricing?</h1>
-            <p>Fill out the form to view details and we’ll contact you as soon as possible.</p>
+            <h2>Fill out the form to view details and we’ll contact you as soon as possible.</h2>
         </section>
         <section class="contact-form-container">        
         <form action="#" method="post" class="contact-form">
-            <div class="form-name-container">
+            <div class="form-item-container">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required placeholder="Your Name" autocomplete="additional-name">
             </div>
-            <div class="form-company-email-container">
+            <div class="form-item-container">
             <label for="company-email">Company Email</label>
             <input type="email" id="company-email" name="email" required placeholder="Company Email" autocomplete="email">
             </div>
-            <div class="form-company-size-container">
+            <div class="form-item-container">
             <label for="company-size">Company Size</label>
             <select name="company-size" id="company-size" required>
                 <option value="1-10">1-10</option>
@@ -38,7 +38,7 @@
                 <option value="1001+">1001+</option>
             </select>
             </div>
-            <div class="form-subject-container">
+            <div class="form-item-container">
             <label for="subject">Subject</label>
             <select name="subject" id="subject" required>
                 <option value="building-landing-pages">Building Landing Pages</option>
@@ -47,11 +47,16 @@
             </div>
             <div class="form-message-container">
             <label for="message">Message</label>
-            <textarea name="message" id="message" class="form-message-area"></textarea>
+            <textarea name="message" id="message"></textarea>
             </div>
             <button type="submit" class="form-send-button">Contact Sales</button>
         </form>
         </section>
         </main>
+        <footer class="author-info">
+            Coded by <a href="https://github.com/ByteSteban">Esteban Padilla</a> | Challenge by
+            <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+            >devChallenges.io</a>
+        </footer>
     </body>
 </html>
