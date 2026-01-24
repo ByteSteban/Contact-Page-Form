@@ -20,7 +20,7 @@
         text-decoration: underline;
       }
 body{
-    background: url(/assets/img/background.svg) no-repeat;
+    background: url(../img/background.svg) no-repeat;
     background-size: cover;
     font-family: 'be vietnam pro', sans-serif;
     font-size: 16px;
